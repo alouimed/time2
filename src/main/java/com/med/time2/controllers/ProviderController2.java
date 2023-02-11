@@ -34,10 +34,10 @@ public class ProviderController2 {
 		model.addAttribute("mail",mail);
 		
 		List<String> names=new ArrayList<>();
-		names.add("sami");
-		names.add("ahmed");
-		names.add("ali");
-		names.add("moudi");
+		names.add("sami from controller");
+		names.add("ahmed from controller");
+		names.add("ali from controller");
+		names.add("moudi from controller");
 		model.addAttribute("names", names);
 		
 		return "data.html";

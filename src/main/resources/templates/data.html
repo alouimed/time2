@@ -1,3 +1,7 @@
 <h2 th:text=${name}></h2>
 <h2 th:text=${telVariableHtml}></h2>
 <h2 th:text=${mail}></h2>
+
+<ul>
+<li th:each="name:${names}" th:text="${name}"></li>
+</ul>
